@@ -1,10 +1,10 @@
 # Image_Processing
-An image processing library with custom methods and filters. I took a computer vision course at the Aquincum Institue of Technology in the Fall of 2015, and this is the code I wrote for that course, with some extra messing around thrown in there. I only implemented the methods in the R2Image.cpp file in the src directory, from line 250 to line 1572. The most important method in this file to the blendOtherImageHomography method beginning on line 1243, as it uses most pervious methods to create a program that belnds two offset images together. I have included a sample output of this method in the output folder.
+An image processing library with custom methods and filters. I took a computer vision course at the Aquincum Institue of Technology in the Fall of 2015, and this is the code I wrote for that course, with some extra messing around thrown in there. I only implemented the methods in the R2Image.cpp file in the src directory, from line 250 to line 1572. The most important method in this file to the blendOtherImageHomography method beginning on line 1243, as it uses most pervious methods to blen two offset images together. I have included a sample output of this method in the output folder.
 
 Everything else in the skeleton directory was given to me by my professor at the Aquincum Institue of Technology, Gergely Vass. All credit for code other than what I have already specified goes to him. I have also included the README that he gave my class below, which gives instructions of how to compile the code. To run the code, go to the skeleton directory and paste the following command: 
 `src/imgpro input/bridge01.jpg output/test.jpg -matchHomography input/bridge02.jpg ` 
 
-This is a sample, as you can  call many other methods. Use the -help commands to see the other methods you can call.
+This is a sample, as you can call many other methods. Use the -help commands to see the other methods you can call.
 
 ##Gergely Vass's README
 
